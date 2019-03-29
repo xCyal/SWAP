@@ -1,0 +1,13 @@
+Descripción de la práctica 1:
+
+Se han creado 2 maquinas virtuales en un sistema host de windows, ambas con Ubuntu server.
+
+Una vez se ha instalado lamp se conecta cambiando la configuración de red de cada una de las maquinas para que puedan compartir el mismo 
+rango que la maquina host.
+
+Para realizar el primer apartado, en el que se nos pide conectar ambas maquinas mediante ssh, se realiza primero un ifconfig(imagen 1) para
+saber la ip y luego se nos pide el usuario y contraseña para acceder, pero en este caso, se ha realizado la práctica 2 por lo que no es 
+necesario la identificación(imagen 2).
+
+En el apartado 2 se muestra como hemos creado el archivo pruebaCURL.html en el primer servidor y luego hemos usado el comando 
+curl http://ipdelservidor/pruebaCURL.html para acceder a el.
