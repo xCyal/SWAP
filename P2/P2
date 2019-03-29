@@ -1,0 +1,11 @@
+Práctica 2 de SWAP
+
+
+1. Para comprobar la copia de archivos mediante ssh he usado scp como se indica en las dos primeras imagenes
+
+2. Para clonar la carpeta se ha usado rsync -avz -e ipmaquina:/directorio /directorio como se indica en las imagenes
+
+3. Para acceder usando ssh sin contraseña a ambos servidores se han creado dos claves y luego copiado mediante ssh-copy-id ipmaquina,
+obteniendo el resultado de la imagen.
+
+4. Para establecer la orden rutinaria se ha modificado el archivo /etc/crontab usando nano como se especifica en la imagen
